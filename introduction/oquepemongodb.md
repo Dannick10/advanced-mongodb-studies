@@ -18,7 +18,7 @@ O MongoDB é atualmente um dos bancos de dados não relacionais mais utilizados 
 
 ### Os comandos são métodos e não queries
 
-```json
+```
 db.usuarios.find({})
 ```
 
@@ -37,7 +37,7 @@ Altamente compatível com várias linguagens de programação
 São comandos usados para consultar, inserir, atualizar ou excluir dados em um banco relacional (SQL).
 Exemplo em MySQL:
 
-```json
+```
 SELECT * FROM usuarios WHERE idade > 18;
 ```
 
@@ -46,7 +46,7 @@ SELECT * FROM usuarios WHERE idade > 18;
 No MongoDB (e outros bancos não relacionais), usamos métodos para realizar essas operações.
 Exemplo em MongoDB:
 
-```json
+```
 db.usuarios.find({ idade: { $gt: 18 } })
 ```
 
